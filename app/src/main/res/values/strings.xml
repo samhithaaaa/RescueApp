@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Rescue Android App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_help">Emergency</string>
+    <string-array name="incidents">
+        <item>           </item>
+        <item>Earth Quake</item>
+        <item>Fire</item>
+        <item>Cuts and Grazes</item>
+        <item>Heart Attack</item>
+    </string-array>
+    <string-array name="helplines">
+        <item>           </item>
+        <item>Police</item>
+        <item>Ambulance</item>
+        <item>Fire Station</item>
+    </string-array>
+    <string-array name="medicalhelp">
+        <item>           </item>
+        <item>Hospitals</item>
+        <item>Doctors</item>
+    </string-array>
+
+
+
+</resources>

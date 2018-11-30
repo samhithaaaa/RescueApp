@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity"
+    android:background="@drawable/help1">
+
+
+
+    <TextView
+
+        android:layout_alignParentLeft="true"
+
+        android:id="@+id/help"
+        android:text="@string/select_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#000000"
+        android:layout_marginTop="300sp"
+        android:textSize="20sp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/help"
+        android:layout_marginTop="300sp"
+        android:textSize="20sp"
+
+        ></Spinner>
+
+    <TextView
+
+        android:layout_alignParentLeft="true"
+
+        android:id="@+id/help1"
+        android:text="Help Lines"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="375sp"
+        android:textSize="20sp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/help1"
+        android:layout_marginTop="375sp"
+        android:textSize="20sp"
+        ></Spinner>
+
+    <TextView
+
+        android:layout_alignParentLeft="true"
+
+        android:id="@+id/help3"
+        android:text="Medical Help"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450sp"
+        android:textSize="20sp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/help3"
+        android:layout_marginTop="450sp"
+        android:textSize="20sp"
+        ></Spinner>
+
+
+    <Button
+        android:id="@+id/exitBt"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="450sp"
+        android:textSize="20sp"
+        android:text="Exit"
+
+        ></Button>
+
+</RelativeLayout>
