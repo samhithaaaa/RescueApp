@@ -55,7 +55,7 @@ public class ContactsFragment extends Fragment {
             public void onClick(View arg0) {
                 AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity());
                 alertDialog.setTitle("Do you want to call?");
-                alertDialog.setMessage("+16692046038");
+                alertDialog.setMessage("+911");
                 alertDialog.setNegativeButton("No",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog,
@@ -71,7 +71,7 @@ public class ContactsFragment extends Fragment {
                                                 int which) {
                                 // Write your code here to execute after dialog
                                 Intent i = new Intent(Intent.ACTION_CALL);
-                                i.setData(Uri.parse("tel:6692046038"));
+                                i.setData(Uri.parse("tel:911"));
 
                                 if (ContextCompat.checkSelfPermission(getActivity().getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
                                     startActivity(i);
